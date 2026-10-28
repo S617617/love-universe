@@ -1,0 +1,30 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+.npm-cache/
+.format-cache/
+tests/roundtrip.json
+# Browser-generated QA artifacts contain only isolated test fixtures and stay local.
+tests/*.png
+tests/*results.json
+tests/roundtrip.json
+.vercel/
+
+out/
+*.log
+public/uploads/
+private/
+tests/pages-backup.json
+# Common private keys and local credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.ssh/
+secrets/
+credentials*.json
+service-account*.json
